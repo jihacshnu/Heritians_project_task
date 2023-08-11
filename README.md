@@ -4,6 +4,7 @@ Introduction
 Heritians Project is a showcase of modern web development techniques, combining HTML, CSS, and JavaScript to create an engaging user experience. The project aims to highlight the skills and creativity of the developer in designing and implementing a functional web application.
 
 Features
+
 Responsive Design: The web application is designed to be responsive, ensuring a seamless user experience across various devices and screen sizes.
 
 Interactive Elements: JavaScript is used to create interactive elements that enhance user engagement and provide a dynamic browsing experience.
