@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1 class="heading">Audition</h1>
+    </div>
+    <div class="body">
+      <h2 class="head2">Add your skills</h2>
+
+      <input type="text" id="tag-input1" />
+      <div class="popup" id="popup1">
+        <img src="Tick.gif" alt="" />
+        <h2>Thank You!</h2>
+        <p>Your response has been submiited</p>
+        <button class="btn" onclick="closePopup()">ok</button>
+      </div>
+
+      <h2 class="head2 second">Tell about yourself</h2>
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="Write your answer"
+          id="floatingTextarea"
+          maxlength="700"
+        ></textarea>
+        <span id="count">700</span>
+      </div>
+      <h2 class="head2 second">Why should we hire you?</h2>
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="Write your answer"
+          id="floatingTextarea1"
+          maxlength="700"
+        ></textarea>
+        <span id="count1">700</span>
+      </div>
+      <input type="submit" value="Submit" class="btn" onclick="openPopup()" />
+    </div>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Jishnu | All Right Reserved</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
